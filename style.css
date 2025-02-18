@@ -1,0 +1,8 @@
+body {
+    background-image: url('images/moonBackground.jpg');
+    background-size: cover; 
+    background-repeat: repeat-y;
+    background-attachment: scroll;
+    opacity: 0.5;
+    overflow-y: scroll;
+}
