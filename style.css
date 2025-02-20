@@ -1,4 +1,5 @@
 body {
+    /* Background Image Formating*/
     background-color: bisque;
     background-image: url('images/moonBackground.jpg');
     background-size: cover; 
@@ -9,16 +10,20 @@ body {
 }
 
 h1 {
+    /*Color*/
     color: aliceblue;
 }
 h2 {
+    /*Color*/
     color: rgb(152, 207, 255);
 }
 p {
+    /*Color*/
     color: rgb(152, 207, 255);
 }
 
 a:link {
+    /*Color and styling when not clicked or hovered*/
     color: blue;
     text-decoration: none;
     font-weight: bold;
@@ -26,12 +31,14 @@ a:link {
 
 
 a:visited {
+    /*Color and styling after clicked*/
     color: purple;
     text-decoration: none;
 }
 
 
-a:hover {
+a:hover {    
+    /*Color and styling during hover*/
     color: red;
     text-decoration: underline;
 }
