@@ -1,8 +1,37 @@
 body {
+    background-color: bisque;
     background-image: url('images/moonBackground.jpg');
     background-size: cover; 
     background-repeat: repeat-y;
     background-attachment: scroll;
-    opacity: 0.5;
+    /*opacity: 0.5;*/
     overflow-y: scroll;
+}
+
+h1 {
+    color: aliceblue;
+}
+h2 {
+    color: rgb(152, 207, 255);
+}
+p {
+    color: rgb(152, 207, 255);
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+a:visited {
+    color: purple;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: red;
+    text-decoration: underline;
 }
