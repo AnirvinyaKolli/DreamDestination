@@ -32,7 +32,7 @@ a:link {
 
 a:visited {
     /*Color and styling after clicked*/
-    color: purple;
+    color: blue;
     text-decoration: none;
 }
 
